@@ -4,6 +4,7 @@ header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: POST');
 header("Access-Control-Allow-Headers: *");
 header('Content-type: application/json; charset= UTF-8');
+short_open_tag = true
 if (isset($_GET['u'])) {
     $url = $_GET['u'];
     $getUrlDb = mysqli_query($conn, "SELECT * FROM shorten WHERE shorten_url = '$url'");
