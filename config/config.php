@@ -1,2 +1,2 @@
 <?php
-$conn = mysqli_connect('sql309.epizy.com', 'epiz_32129372', 'zQa1Q1vkiy', 'epiz_32129372_shorten');
+$conn = mysqli_connect('sql5.freemysqlhosting.net', 'sql5507256', 'UP1sLQkkj2', 'sql5507256');
