@@ -1,17 +1,17 @@
 <?php
-// include_once('./config/config.php');
+include_once('./config/config.php');
 
-// if (isset($_GET['u'])) {
-//     $url = $_GET['u'];
-//     $getUrlDb = mysqli_query($conn, "SELECT * FROM shorten WHERE shorten_url = '$url'");
-//     if (mysqli_num_rows($getUrlDb) > 0) {
-//         $getUrl = mysqli_fetch_assoc($getUrlDb)['base_url'];
-//         header("Location:" . $getUrl);
-//     } else {
-//         echo '<script>alert("The Url is not found in our DB")</script>';
-//     }
-// }
-// ?>
+if (isset($_GET['u'])) {
+    $url = $_GET['u'];
+    $getUrlDb = mysqli_query($conn, "SELECT * FROM shorten WHERE shorten_url = '$url'");
+    if (mysqli_num_rows($getUrlDb) > 0) {
+        $getUrl = mysqli_fetch_assoc($getUrlDb)['base_url'];
+        header("Location:" . $getUrl);
+    } else {
+        echo '<script>alert("The Url is not found in our DB")</script>';
+    }
+}
+?>
 <!DOCtype html>
 <html lang="ar">
 
