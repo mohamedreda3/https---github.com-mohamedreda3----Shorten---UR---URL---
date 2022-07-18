@@ -17,7 +17,7 @@ if (isset($_GET['u'])) {
 
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./assets/sryle.css" />
+    <link rel="stylesheet" href="assets/sryle.css" />
     <title> -- Shorten - UR - URL -- </title>
 </head>
 
@@ -46,7 +46,7 @@ if (isset($_GET['u'])) {
         </div>
     </div>
     </div>
-    <script src="./assets/main.js"></script>
+    <script src="assets/main.js"></script>
 </body>
 
 </html>
