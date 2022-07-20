@@ -16,7 +16,7 @@ if (isset($_GET['u'])) {
 <html lang="ar">
 
 <head>
-    <link rel="stylesheet" href="./assets/sryle.css" />
+    <link rel="stylesheet" href="assets/sryle.css" />
     <title> -- Shorten - UR - URL -- </title>
 </head>
 
@@ -45,7 +45,7 @@ if (isset($_GET['u'])) {
         </div>
     </div>
     </div>
-    <script src="./assets/main.js"></script>
+    <script src="assets/main.js"></script>
 </body>
 
 </html>
