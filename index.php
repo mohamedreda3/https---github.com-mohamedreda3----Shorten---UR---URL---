@@ -16,7 +16,7 @@ if (isset($_GET['u'])) {
 <html lang="ar">
 
 <head>
-    <link rel="stylesheet" href="assets/sryle.css" />
+    <link rel="stylesheet" href="assets/style.css" />
     <title> -- Shorten - UR - URL -- </title>
 </head>
 
